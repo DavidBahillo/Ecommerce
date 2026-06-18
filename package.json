@@ -5,6 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:ghpages": "ng build --configuration production --base-href=/",
+    "deploy": "ng deploy --base-href=/ --cname=ecommerce.davidbahillo.es",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:ng-ecommerce": "node dist/ng-ecommerce/server/server.mjs"
