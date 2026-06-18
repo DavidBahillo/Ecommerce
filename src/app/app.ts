@@ -1,16 +1,16 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { Header } from './layout/header/header';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, Header],
   template: `
-    <h1>Welcome to {{ title() }}!</h1>
-
-    <router-outlet />
+    <app-header ></app-header>
+    <div class="h-[calc(100vh-64px)] overflow">
+      <router-outlet />
+    </div>
   `,
   styles: [],
 })
-export class App {
-  protected readonly title = signal('ng-ecommerce');
-}
+export class App {}
