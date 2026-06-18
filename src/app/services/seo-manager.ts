@@ -13,7 +13,7 @@ export class SeoManager {
   request = inject(REQUEST, { optional: true });
   document = inject(DOCUMENT);
 
-  private readonly siteName = 'Modern E-commerce';
+  private readonly siteName = 'The Big Store';
   private readonly defaultImagene =
     'https://www.davidbahillo.es/wp-content/uploads/2025/07/logo4.png';
 
