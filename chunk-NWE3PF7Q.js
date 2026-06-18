@@ -1,0 +1,1 @@
+import{la as t}from"./chunk-2ISUUVEM.js";var e=class r{constructor(){}static \u0275fac=function(i){return new(i||r)};static \u0275dir=t({type:r,selectors:[["","appViewPanel",""]],hostAttrs:[1,"border","border-gray-300","rounded-xl","bg-white","p-4","sm:p-6"]})};export{e as a};
